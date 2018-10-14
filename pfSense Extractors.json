@@ -16,10 +16,10 @@
       "source_field": "message",
       "target_field": "FilterData",
       "extractor_config": {
-        "regex_value": "^filterlog:\\s+(.*)$"
+        "regex_value": "^.*filterlog:\\s+(.*)$"
       },
       "condition_type": "regex",
-      "condition_value": "^filterlog:\\s+.*,(in|out),4,.*,tcp,.*$"
+      "condition_value": "^.*filterlog:\\s+.*,(in|out),4,.*,tcp,.*$"
     },
 	
 	
@@ -39,10 +39,10 @@
       "source_field": "message",
       "target_field": "FilterData",
       "extractor_config": {
-        "regex_value": "^filterlog:\\s+(.*)$"
+        "regex_value": "^.*filterlog:\\s+(.*)$"
       },
       "condition_type": "regex",
-      "condition_value": "^filterlog:\\s+.*,(in|out),4,.*,UDP,.*$"
+      "condition_value": "^.*filterlog:\\s+.*,(in|out),4,.*,udp,.*$"
     },
 	
 	
@@ -62,10 +62,10 @@
       "source_field": "message",
       "target_field": "FilterData",
       "extractor_config": {
-        "regex_value": "^filterlog:\\s+(.*)$"
+        "regex_value": "^.*filterlog:\\s+(.*)$"
       },
       "condition_type": "regex",
-      "condition_value": "^filterlog:\\s+.*,(in|out),6,.*,tcp,.*$"
+      "condition_value": "^.*filterlog:\\s+.*,(in|out),6,.*,tcp,.*$"
     },
 	
 	
@@ -85,10 +85,10 @@
       "source_field": "message",
       "target_field": "FilterData",
       "extractor_config": {
-        "regex_value": "^filterlog:\\s+(.*)$"
+        "regex_value": "^.*filterlog:\\s+(.*)$"
       },
       "condition_type": "regex",
-      "condition_value": "^filterlog:\\s+.*,(in|out),6,.*,UDP,.*$"
+      "condition_value": "^.*filterlog:\\s+.*,(in|out),6,.*,udp,.*$"
     },
 	
 	
@@ -108,10 +108,10 @@
       "source_field": "message",
       "target_field": "FilterData",
       "extractor_config": {
-        "regex_value": "^filterlog:\\s+(.*)$"
+        "regex_value": "^.*filterlog:\\s+(.*)$"
       },
       "condition_type": "regex",
-      "condition_value": "^filterlog:\\s+.*,(in|out),4,.*,icmp,.*,(request|reply),.*$"
+      "condition_value": "^.*filterlog:\\s+.*,(in|out),4,.*,icmp,.*,(request|reply),.*$"
     },
 	
 	
@@ -131,10 +131,10 @@
       "source_field": "message",
       "target_field": "FilterData",
       "extractor_config": {
-        "regex_value": "^filterlog:\\s+(.*)$"
+        "regex_value": "^.*filterlog:\\s+(.*)$"
       },
       "condition_type": "regex",
-      "condition_value": "^filterlog:\\s+.*,(in|out),4,.*,icmp,.*,unreachproto,.*$"
+      "condition_value": "^.*filterlog:\\s+.*,(in|out),4,.*,icmp,.*,unreachproto,.*$"
     },
 	
 	
@@ -154,10 +154,10 @@
       "source_field": "message",
       "target_field": "FilterData",
       "extractor_config": {
-        "regex_value": "^filterlog:\\s+(.*)$"
+        "regex_value": "^.*filterlog:\\s+(.*)$"
       },
       "condition_type": "regex",
-      "condition_value": "^filterlog:\\s+.*,(in|out),4,.*,icmp,.*,unreachport,.*$"
+      "condition_value": "^.*filterlog:\\s+.*,(in|out),4,.*,icmp,.*,unreachport,.*$"
     },
 	
 	
@@ -177,10 +177,10 @@
       "source_field": "message",
       "target_field": "FilterData",
       "extractor_config": {
-        "regex_value": "^filterlog:\\s+(.*)$"
+        "regex_value": "^.*filterlog:\\s+(.*)$"
       },
       "condition_type": "regex",
-      "condition_value": "^filterlog:\\s+.*,(in|out),4,.*,icmp,.*,(unreach|timexceed|paramprob|redirect|maskreply),.*$"
+      "condition_value": "^.*filterlog:\\s+.*,(in|out),4,.*,icmp,.*,(unreach|timexceed|paramprob|redirect|maskreply),.*$"
     },
 	
 	
@@ -200,10 +200,10 @@
       "source_field": "message",
       "target_field": "FilterData",
       "extractor_config": {
-        "regex_value": "^filterlog:\\s+(.*)$"
+        "regex_value": "^.*filterlog:\\s+(.*)$"
       },
       "condition_type": "regex",
-      "condition_value": "^filterlog:\\s+.*,(in|out),4,.*,icmp,.*,needfrag,.*$"
+      "condition_value": "^.*filterlog:\\s+.*,(in|out),4,.*,icmp,.*,needfrag,.*$"
     },
 	
 	
@@ -223,10 +223,10 @@
       "source_field": "message",
       "target_field": "FilterData",
       "extractor_config": {
-        "regex_value": "^filterlog:\\s+(.*)$"
+        "regex_value": "^.*filterlog:\\s+(.*)$"
       },
       "condition_type": "regex",
-      "condition_value": "^filterlog:\\s+.*,(in|out),4,.*,icmp,.*,tstamp,.*$"
+      "condition_value": "^.*filterlog:\\s+.*,(in|out),4,.*,icmp,.*,tstamp,.*$"
     },
 	
 	
@@ -246,10 +246,10 @@
       "source_field": "message",
       "target_field": "FilterData",
       "extractor_config": {
-        "regex_value": "^filterlog:\\s+(.*)$"
+        "regex_value": "^.*filterlog:\\s+(.*)$"
       },
       "condition_type": "regex",
-      "condition_value": "^filterlog:\\s+.*,(in|out),4,.*,icmp,.*,tstampreply,.*$"
+      "condition_value": "^.*filterlog:\\s+.*,(in|out),4,.*,icmp,.*,tstampreply,.*$"
     },
 	
 	
@@ -269,10 +269,10 @@
       "source_field": "message",
       "target_field": "FilterData",
       "extractor_config": {
-        "regex_value": "^filterlog:\\s+(.*)$"
+        "regex_value": "^.*filterlog:\\s+(.*)$"
       },
       "condition_type": "regex",
-      "condition_value": "^filterlog:\\s+.*,(in|out),4,.*,icmp,.*,(?!(request|reply|unreachproto|unreachport|unreach|timexceed|paramprob|redirect|maskreply|needfrag|tstamp|tstampreply)),.*$"
+      "condition_value": "^.*filterlog:\\s+.*,(in|out),4,.*,icmp,.*,(?!(request|reply|unreachproto|unreachport|unreach|timexceed|paramprob|redirect|maskreply|needfrag|tstamp|tstampreply)),.*$"
     }
   ],
   "version": "2.2.0-SNAPSHOT"
